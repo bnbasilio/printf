@@ -29,5 +29,5 @@ char *print_rev(va_list);
 char *print_rot13(va_list);
 
 char *convert_to_hex(int dec);
-
+void rev_string(char *);
 #endif /* HOLBERTON_H */
