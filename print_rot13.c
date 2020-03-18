@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- **rot13 - encodes a string using rot13
- *@s: string to be encoded
- *Return: s (encoded string)
+ **print_rot13 - encodes a string using rot13
+ *@ag: string to be encoded
+ *Return: pointer to encoded string
  */
 char *print_rot13(va_list ag)
 {
