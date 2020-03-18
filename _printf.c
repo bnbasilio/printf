@@ -70,7 +70,7 @@ int _printf(const char *format, ...)
 			buf_idx = checkBuffer(buf_idx, buffer);
 			i++;
 		}
-		else if (format[i] == '%' && format[i + 1])
+		else if (format[i] == '%')
 		{
 			j = num_flags(format + i + 1);
 			i += j + 1;
